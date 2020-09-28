@@ -43,7 +43,7 @@ no tests required
 
 
 ## Questions
-Contact me:
+Contact me: Stephen Pena
 Github: [https://github.com/penaone](https://github.com/penaone)
 Email: [penaone@gmail.com](penaone@gmail.com)
 video link: https://drive.google.com/file/d/1h8poNpvum_f6_4AR_1MwCydEl0UeCVFm/view
