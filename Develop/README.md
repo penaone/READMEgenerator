@@ -4,7 +4,7 @@
 
 
    
-   # README Generator
+   # README generator
   
 
 badges();
@@ -19,15 +19,15 @@ badges();
 
 
 ## Description:
-This generator will create a dynamic README.md file for your website
+This project will allow the user to generate a readme.md file. 
 
 
 ## Installation:
-Go to Github and clone the repository.
+Got to Github and clone the repository to the local computer.
 
 
 ## Usage:
-Make sure you are in the develop directory. Then you will node index in the command line of your terminal.
+Run the file from the command line. You need to be sure you are at the develop directory. On the command line you need to execute node index or node index.js.
 
 
 ## License:
@@ -39,12 +39,11 @@ Stephen Pena
 
 
 ## Tests:
-no tests required
+not any
 
 
 ## Questions
 Contact me: Stephen Pena
 Github: [https://github.com/penaone](https://github.com/penaone)
 Email: [penaone@gmail.com](penaone@gmail.com)
-video link: https://drive.google.com/file/d/1h8poNpvum_f6_4AR_1MwCydEl0UeCVFm/view
-
+video file: https://drive.google.com/file/d/1RwBsDrR_ie2bCNXWdYCym_8NZygIopLl/view
