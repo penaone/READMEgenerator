@@ -1,30 +1,20 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-
-`;
-}
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-If (${data.license}=ISC) {
-  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC);  
-} else if (${data.license}=MIT) {
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT);
-} else if (${data.license}=Apache-2.0) {
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0);
-} else {
-  '';
-}
+  //badges()
+  return `  
 
 
-# ${data.title}
 
 
+   
+   # ${data.title}
+  
+
+badges();
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
-* [Usage](#usage-information)
+* [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
 * [Tests](#tests)
@@ -39,7 +29,7 @@ ${data.description}
 ${data.installation}
 
 
-## Usage-Information:
+## Usage:
 ${data.usage}
 
 
@@ -52,7 +42,7 @@ ${data.contributors}
 
 
 ## Tests:
-${data.test}
+${data.tests}
 
 
 ## Questions
@@ -60,6 +50,19 @@ Contact me:
 Github: [https://github.com/${data.username}](https://github.com/${data.username})
 Email: [${data.email}](${data.email})
 `;
+
+
+// function badges() {
+//   if (ISC = data.license) {
+//        return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
+//    } else if (data.license = MIT) {
+//        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+//    } else if (data.license = Apache-2.0) {
+//        return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+//    } else {
+//        '';
+//    }
+//   }
 }
 
 module.exports = generateMarkdown;

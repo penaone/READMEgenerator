@@ -49,7 +49,7 @@ const questions = inquirer.prompt([{
 
     {
       type: 'input',
-      name: 'usage-information',
+      name: 'usage',
       message: 'Please provide usage information. (Required)',
       validate: nameInput => {
         if (nameInput) {
@@ -106,11 +106,7 @@ const questions = inquirer.prompt([{
     },
 
 
-  ])
-
-
-
-;
+  ]);
 
 // function to write README file
 function writeFile(fileName, data) {
