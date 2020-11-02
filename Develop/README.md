@@ -4,7 +4,7 @@
 
 
    
-   # README generator
+   # Employee Tracker
   
 
 badges();
@@ -19,19 +19,19 @@ badges();
 
 
 ## Description:
-This project will allow the user to generate a readme.md file. 
+This builds a employee/company database that a company can use to track its employees and there roles.
 
 
 ## Installation:
-Got to Github and clone the repository to the local computer.
+Clone repository from github. Open Repository. On command line enter npm start. Answer questions.
 
 
 ## Usage:
-Run the file from the command line. You need to be sure you are at the develop directory. On the command line you need to execute node index or node index.js.
+run npm install to make sure you have the proper languages and libraries loaded.
 
 
 ## License:
-This Repository is covered under the following license: [None] 
+This Repository is covered under the following license: [MIT] 
 
 ## Contributors:
 Stephen Pena
@@ -39,11 +39,10 @@ Stephen Pena
 
 
 ## Tests:
-not any
+No tests required
 
 
 ## Questions
-Contact me: Stephen Pena
+Contact me:
 Github: [https://github.com/penaone](https://github.com/penaone)
 Email: [penaone@gmail.com](penaone@gmail.com)
-video file: https://drive.google.com/file/d/1RwBsDrR_ie2bCNXWdYCym_8NZygIopLl/view

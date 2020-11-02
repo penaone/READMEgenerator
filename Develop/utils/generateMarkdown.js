@@ -53,14 +53,14 @@ Email: [${data.email}](${data.email})
 
 
 // function badges() {
-//   if (ISC = data.license) {
-//        return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
-//    } else if (data.license = MIT) {
-//        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-//    } else if (data.license = Apache-2.0) {
-//        return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+//   if (${data.license} = ISC) {
+//         badge= '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
+//    } else if (${data.license} = MIT) {
+//        badge= '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+//    } else if (${data.license} = Apache-2.0) {
+//        badge= '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
 //    } else {
-//        '';
+//        badge ='';
 //    }
 //   }
 }
