@@ -10,7 +10,7 @@ badges();
 * [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
-* [Tests](#tests)
+* [Summary](#summary)
 * [Questions](#questions)
 
 
@@ -34,8 +34,12 @@ Stephen Pena
 
 
 
-## Tests:
-not any
+## Summary:
+This application will generate a new readme for any website. This is a quick and easy way to get a to
+a README. This app asks a series of questions that develop your typical README page.
+
+
+
 
 
 ## Questions
